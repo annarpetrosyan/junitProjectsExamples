@@ -1,0 +1,30 @@
+package EmployeeTest;
+
+
+public class Address {
+    private String street;
+    private String city;
+    private String zipCode;
+
+    public Address(String street, String city, String zipCode) {
+        this.street = street;
+        this.city = city;
+        this.zipCode = zipCode;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getZipCode() {
+        return zipCode;
+    }
+
+//    public void setStreet(String new_street) {
+//        this.street = new_street;
+//    }
+}
